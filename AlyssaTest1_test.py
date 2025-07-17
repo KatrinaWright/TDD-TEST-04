@@ -19,3 +19,6 @@ def test_function_one():
 
 def test_function_six():
     assert A1.function_1( 6 ) == False
+
+def test_function_nine():
+    assert A1.function_1( 9 ) == True
