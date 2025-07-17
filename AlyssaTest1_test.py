@@ -29,3 +29,6 @@ def test_function_str():
 def test_function_big():
     assert A1.function_1( 100 ) == True
 
+def test_function_big():
+    assert A1.function_1( 101 ) == False
+
