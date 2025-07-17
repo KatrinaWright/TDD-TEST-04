@@ -16,3 +16,6 @@ def test_hello_pass():
 # Problem 1 Tests
 def test_function_one():
     assert A1.function_1( 1 ) == True
+
+def test_function_six():
+    assert A1.function_1( 6 ) == False
