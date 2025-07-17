@@ -17,5 +17,5 @@ def test_hello_pass():
 def test_function_one():
     assert A1.function_1( 1 ) == True
 
-def test_function_five():
-    assert A1.function_1( 5 ) == True
+def test_function_six():
+    assert A1.function_1( 6 ) == False
