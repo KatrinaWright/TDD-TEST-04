@@ -7,6 +7,8 @@ def hello_world():
 def function_1(data):
     if data %2 == 1:
       return True
+    elif data.type == str:
+      return False
     else:
       return False
 
