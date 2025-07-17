@@ -22,3 +22,7 @@ def test_function_six():
 
 def test_function_nine():
     assert A1.function_1( 9 ) == True
+
+def test_function_str():
+    assert A1.function_1( "harry" ) == False
+
