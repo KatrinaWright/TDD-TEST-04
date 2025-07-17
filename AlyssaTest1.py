@@ -5,7 +5,7 @@ def hello_world():
     return "Hello!"
 
 def function_1(data):
-    if data == 1:
+    if data %2 == 1:
       return True
     else:
       return False
