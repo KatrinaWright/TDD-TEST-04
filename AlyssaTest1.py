@@ -10,12 +10,12 @@ def function_1(data):
       return False
     if data %2 == 1:
       return True
-    elif type(data) == str:
-      return False
+    if data %2 == 0 and data > 50:
+      return True
     else:
       return False
 
 def main():
-    print("Function 1: ", function_1(9))
+    print("Function 1: ", function_1(100))
 
 main()
